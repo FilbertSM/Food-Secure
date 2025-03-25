@@ -59,6 +59,10 @@ nav a:hover {
     transform: scale(1.1);
 }
 
+#program {
+    padding: 0 50px;
+}
+
 .hero {
     padding: 120px 40px;
     background: url('images/hero1.jpg') no-repeat center/cover;
@@ -182,5 +186,4 @@ footer {
     color: white;
     text-align: center;
     padding: 30px 0;
-    margin-top: 40px;
 }
