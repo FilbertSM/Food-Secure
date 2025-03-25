@@ -6,7 +6,7 @@ body {
     background-color: #F5F5F5;
     color: #1A3C34;
     overflow-x: hidden;
-    line-height: 1.6; /* Added for better text readability */
+    line-height: 1.6;
 }
 
 h1, h2, h3 {
@@ -18,7 +18,7 @@ header {
     color: white;
     text-align: center;
     position: relative;
-    margin-bottom: 20px; /* Added space below header */
+    margin-bottom: 20px;
 }
 
 nav {
@@ -36,13 +36,13 @@ nav {
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 1px;
-    padding: 15px 0; /* Added padding for vertical breathing room */
+    padding: 15px 0;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px; /* Increased gap slightly for better separation */
+    gap: 30px;
     margin: 0;
     padding: 15px 0;
 }
@@ -60,31 +60,31 @@ nav a:hover {
 }
 
 .hero {
-    padding: 120px 40px; /* Increased padding for more space */
-    background: url('images/hero1.jpg') no-repeat center/cover; /* Kept your image path */
-    min-height: 450px; /* Slightly taller for balance */
+    padding: 120px 40px;
+    background: url('images/hero1.jpg') no-repeat center/cover;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 40px; /* Added space below hero */
+    margin-bottom: 40px;
 }
 
 .hero h1 {
     font-size: 48px;
-    margin: 0 0 20px; /* Added bottom margin for spacing */
+    margin: 0 0 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
     font-size: 20px;
-    margin: 0 0 30px; /* Increased spacing below paragraph */
+    margin: 0 0 30px;
 }
 
 .btn {
     display: inline-block;
-    padding: 12px 30px; /* Slightly wider padding */
+    padding: 12px 30px;
     background-color: #4C9F70;
     color: white;
     text-decoration: none;
@@ -98,29 +98,29 @@ nav a:hover {
 }
 
 .content {
-    padding: 80px 40px; /* Increased padding for more breathing room */
+    padding: 80px 40px;
     text-align: center;
-    max-width: 1200px; /* Added max-width to center content */
-    margin: 0 auto; /* Centered the content block */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .content h1 {
     font-size: 36px;
-    margin-bottom: 30px; /* Increased spacing below heading */
+    margin-bottom: 30px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
-    gap: 40px; /* Increased gap for better separation */
+    gap: 40px;
     flex-wrap: wrap;
-    margin-top: 30px; /* Added more space above cards */
+    margin-top: 30px;
 }
 
 .card {
     background-color: white;
-    padding: 25px; /* Increased padding inside cards */
-    width: 280px; /* Slightly wider cards */
+    padding: 25px;
+    width: 280px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -133,32 +133,32 @@ nav a:hover {
 
 .card h3 {
     color: #2A7968;
-    margin-bottom: 15px; /* Increased spacing below card heading */
+    margin-bottom: 15px;
 }
 
 .cta {
     background-color: #1D594E;
     color: white;
-    padding: 80px 40px; /* Increased padding for more space */
+    padding: 80px 40px;
     text-align: center;
-    margin-top: 40px; /* Added space above CTA */
+    margin-top: 40px;
 }
 
 .cta h2 {
     font-size: 28px;
-    margin-bottom: 20px; /* Increased spacing below heading */
+    margin-bottom: 20px;
 }
 
 .contact-form {
-    max-width: 600px; /* Slightly wider form */
-    margin: 30px auto; /* Increased top margin */
+    max-width: 600px;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Increased gap between form fields */
+    gap: 20px;
 }
 
 .contact-form input, .contact-form textarea {
-    padding: 12px; /* Slightly more padding */
+    padding: 12px;
     border: 1px solid #2A7968;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
@@ -167,7 +167,7 @@ nav a:hover {
 .contact-form button {
     background-color: #4C9F70;
     border: none;
-    padding: 14px; /* Slightly taller button */
+    padding: 14px;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -181,9 +181,6 @@ footer {
     background-color: #1A3C34;
     color: white;
     text-align: center;
-    padding: 30px 0; /* Increased padding for footer */
-}
-
-#program {
-    padding: 0 50px;
+    padding: 30px 0;
+    margin-top: 40px;
 }
