@@ -1,4 +1,3 @@
-# Food Security Website
-A personal branding site showcasing our food security and home farming program.
+# SUSTANARA Website
 
-Website Link: https://filbertsm.github.io/Food-Secure/
+Website Link: https://filbertsm.github.io/SUSTANARA/
